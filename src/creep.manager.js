@@ -1,4 +1,8 @@
 
+const MINER = 'MINER';
+const UPGRADER = 'UPGRADER';
+const BUILDER = 'BUILDER';
+
 module.exports = {
     /**
      * 
@@ -14,14 +18,14 @@ module.exports = {
         })
     },
 
-    spawnHarvester() {
-        return this.spawn('harvester');
+    spawnMiner() {
+        return this.spawn(MINER);
     },
     spawnUpgrader() {
-        return this.spawn('upgrader');
+        return this.spawn(UPGRADER);
     },
     spawnBuilder() {
-        return this.spawn('builder');
+        return this.spawn(BUILDER);
     },
 
     run() {
