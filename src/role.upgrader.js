@@ -1,5 +1,4 @@
 const sp1 = Game.spawns.sp1;
-
 var roleUpgrader = {
 
     /** @param {Creep} creep **/
